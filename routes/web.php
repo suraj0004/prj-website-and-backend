@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,5 @@ Route::get('/home', function () {
 Route::get('/contact-us', function () {
     return view('contact-us.index');
 })->name('contact-us');
+
+Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');

@@ -690,7 +690,7 @@ ul.top-info li p.info-text {
   }
 }
 .header-one .logo-area {
-  padding: 30px 0;
+  padding: 5px 0;
 }
 
 .navbar-fixed {
@@ -730,7 +730,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 35px;
+  height: 130px;
 }
 
 .header-two .logo img {
@@ -773,7 +773,7 @@ ul.top-info-box li {
     margin: 0;
     flex: 0 0 50%;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
 @media (max-width: 400px) {
@@ -782,7 +782,7 @@ ul.top-info-box li {
     text-align: center;
     margin: 0;
     flex: 0 0 100%;
-    margin-top: 15px;
+    margin-top: 5px;
   }
 }
 
@@ -812,7 +812,7 @@ ul.top-info-box li .info-box .info-box-content {
 
 ul.top-info-box li .info-box .info-box-title {
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   line-height: normal;
 }
 
@@ -1712,7 +1712,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #fff;
 }
 
-/* Service box 
+/* Service box
 
 .ts-service-box .ts-service-icon i {
   font-size: 24px;

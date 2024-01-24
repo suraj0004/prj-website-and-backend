@@ -14,14 +14,14 @@
 @include('home.about-us')
 
 
-@include('home.facts')
+{{-- @include('home.facts') --}}
 
 
 @include('home.what-we-do')
 
 @include('home.project-gallery')
 
-@include('home.testimonials')
+{{-- @include('home.testimonials') --}}
 
 @include('home.newsletter')
 
