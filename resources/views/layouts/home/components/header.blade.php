@@ -82,7 +82,7 @@
                                         <li><a href="{{route('about-us')}}" class="{{ request()->routeIs('about-us') ? 'active' : '' }}">About Us</a></li>
                                         {{-- <li><a href="team.html">Our People</a></li> --}}
                                         <li><a href="{{route('testimonials')}}" class="{{ request()->routeIs('testimonials') ? 'active' : '' }}">Testimonials</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
+                                        <li><a href="{{route('faq')}}" class="{{ request()->routeIs('faq') ? 'active' : '' }}">Faq</a></li>
                                         <li><a href="pricing.html">Pricing</a></li>
                                     </ul>
                                 </li>

@@ -33,5 +33,9 @@ Route::get('/testimonials', function () {
     return view('testimonials.index');
 })->name('testimonials');
 
+Route::get('/faq', function () {
+    return view('faq.index');
+})->name('faq');
+
 
 Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');

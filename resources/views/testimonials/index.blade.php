@@ -2,7 +2,7 @@
 
 @extends('layouts.home.index')
 
-@section('title', 'About us')
+@section('title', 'Testimonials')
 
 @section('styles')
     <link rel="stylesheet" href={{ asset('css/contact-us.css') }}>
@@ -10,7 +10,7 @@
 
 @section('content')
 
-    @include('about-us.banner')
+    @include('testimonials.banner')
     <section id="main-container" class="main-container">
         <div class="container">
 
