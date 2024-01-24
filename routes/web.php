@@ -25,5 +25,8 @@ Route::get('/home', function () {
 Route::get('/contact-us', function () {
     return view('contact-us.index');
 })->name('contact-us');
+Route::get('/about-us', function () {
+    return view('about-us.index');
+})->name('about-us');
 
 Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');
