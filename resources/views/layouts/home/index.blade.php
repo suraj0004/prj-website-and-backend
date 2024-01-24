@@ -88,9 +88,9 @@
 
 
     <!-- Google Map API Key-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script> --}}
     <!-- Google Map Plugin-->
-    <script src={{ asset('plugins/google-map/map.js') }} defer></script>
+    {{-- <script src={{ asset('plugins/google-map/map.js') }} defer></script> --}}
 
     <!-- Template custom -->
     <script src={{ asset('js/script.js') }}></script>

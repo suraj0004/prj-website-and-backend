@@ -76,14 +76,21 @@
                                     </ul>
                                 </li> --}}
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i
-                                            class="fa fa-angle-down"></i></a>
+                                    <a href="#" class="nav-link dropdown-toggle " data-toggle="dropdown">Company
+                                        <i class="fa fa-angle-down"></i></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li><a href="{{route('about-us')}}" class="{{ request()->routeIs('about-us') ? 'active' : '' }}">About Us</a></li>
+                                        <li><a href="{{ route('about-us') }}"
+                                                class="{{ request()->routeIs('about-us') ? 'active' : '' }}">About
+                                                Us</a></li>
                                         {{-- <li><a href="team.html">Our People</a></li> --}}
-                                        <li><a href="{{route('testimonials')}}" class="{{ request()->routeIs('testimonials') ? 'active' : '' }}">Testimonials</a></li>
-                                        <li><a href="{{route('faq')}}" class="{{ request()->routeIs('faq') ? 'active' : '' }}">Faq</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="{{ route('testimonials') }}"
+                                                class="{{ request()->routeIs('testimonials') ? 'active' : '' }}">Testimonials</a>
+                                        </li>
+                                        <li><a href="{{ route('faq') }}"
+                                                class="{{ request()->routeIs('faq') ? 'active' : '' }}">Faq</a></li>
+                                        <li><a href="{{ route('pricing') }}"
+                                                class="{{ request()->routeIs('pricing') ? 'active' : '' }}">Pricing</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 {{--

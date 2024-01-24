@@ -37,5 +37,10 @@ Route::get('/faq', function () {
     return view('faq.index');
 })->name('faq');
 
+Route::get('/pricing', function () {
+    return view('pricing.index');
+})->name('pricing');
+
+
 
 Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');
