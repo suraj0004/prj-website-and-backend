@@ -4,14 +4,14 @@
             <div class="logo-area">
                 <div class="row align-items-center">
                     <div class="logo col-3 text-center text-lg-left mb-md-5 mb-lg-0">
-                        <a class="d-block" href={{route('home')}}>
-                            <img loading="lazy" src={{ asset('images/logo.png') }} alt="PRG Projects"  >
+                        <a class="d-block" href={{ route('home') }}>
+                            <img loading="lazy" src={{ asset('images/logo.png') }} alt="PRG Projects">
                         </a>
                     </div><!-- logo end -->
 
                     <div class="col-9 header-right">
                         <ul class="top-info-box">
-                            <li class="mt-0" >
+                            <li class="mt-0">
                                 <div class="info-box">
                                     <div class="info-box-content">
                                         <p class="info-box-title">Call Us</p>
@@ -65,10 +65,7 @@
                                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                                 </li>
 
-                                <!-- Contact link -->
-                                <li class="nav-item {{ request()->routeIs('contact-us') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ route('contact-us') }}">Contact</a>
-                                </li>
+
 
                                 {{-- <li class="nav-item dropdown active">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <i
@@ -78,8 +75,7 @@
 
                                     </ul>
                                 </li> --}}
-
-                                {{-- <li class="nav-item dropdown">
+                                <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i
                                             class="fa fa-angle-down"></i></a>
                                     <ul class="dropdown-menu" role="menu">
@@ -90,6 +86,7 @@
                                         <li><a href="pricing.html">Pricing</a></li>
                                     </ul>
                                 </li>
+                                {{--
 
                                 <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects
@@ -138,6 +135,21 @@
                                 </li> --}}
 
 
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">Projects</a>
+                                </li>
+
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                                <!-- Contact link -->
+                                <li class="nav-item {{ request()->routeIs('contact-us') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ route('contact-us') }}">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
