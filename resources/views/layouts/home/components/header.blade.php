@@ -4,7 +4,7 @@
             <div class="logo-area">
                 <div class="row align-items-center">
                     <div class="logo col-3 text-center text-lg-left mb-md-5 mb-lg-0">
-                        <a class="d-block" href="index.html">
+                        <a class="d-block" href={{route('home')}}>
                             <img loading="lazy" src={{ asset('images/logo.png') }} alt="PRG Projects"  >
                         </a>
                     </div><!-- logo end -->

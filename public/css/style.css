@@ -2379,6 +2379,9 @@ img.testimonial-thumb {
 /* Footer about us */
 .footer-logo {
   margin-bottom: 25px;
+  text-align: center;
+  /* height: 130px;
+  width: 130px; */
 }
 
 /* Footer social */
