@@ -29,4 +29,9 @@ Route::get('/about-us', function () {
     return view('about-us.index');
 })->name('about-us');
 
+Route::get('/testimonials', function () {
+    return view('testimonials.index');
+})->name('testimonials');
+
+
 Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');
