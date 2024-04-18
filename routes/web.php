@@ -41,6 +41,23 @@ Route::get('/pricing', function () {
     return view('pricing.index');
 })->name('pricing');
 
+Route::get('/projects', function () {
+    return view('projects.index');
+})->name('projects');
+
+Route::get('/project/single', function () {
+    return view('projects.project-single.index');
+})->name('projects.single');
+
+Route::get('/services', function () {
+    return view('services.index');
+})->name('services');
+
+Route::get('/service/single', function () {
+    return view('services.service-single.index');
+})->name('services.single');
+
+
 
 
 Route::post('/contact-us-submit-form', [ContactUsController::class, 'handleFormSubmit'])->name('contact-us.submit.form');

@@ -52,7 +52,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">Capital Teltway Building</a>
+                                        <a href="{{route('projects.single')}}">Capital Teltway Building</a>
                                     </h3>
                                     <p class="project-cat">Commercial, Interiors</p>
                                 </div>
@@ -71,7 +71,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">Ghum Touch Hospital</a>
+                                        <a href="{{route('projects.single')}}">Ghum Touch Hospital</a>
                                     </h3>
                                     <p class="project-cat">Healthcare</p>
                                 </div>
@@ -91,7 +91,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">TNT East Facility</a>
+                                        <a href="{{route('projects.single')}}">TNT East Facility</a>
                                     </h3>
                                     <p class="project-cat">Government</p>
                                 </div>
@@ -111,7 +111,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">Narriot Headquarters</a>
+                                        <a href="{{route('projects.single')}}">Narriot Headquarters</a>
                                     </h3>
                                     <p class="project-cat">Infrastructure</p>
                                 </div>
@@ -131,7 +131,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">Kalas Metrorail</a>
+                                        <a href="{{route('projects.single')}}">Kalas Metrorail</a>
                                     </h3>
                                     <p class="project-cat">Infrastructure</p>
                                 </div>
@@ -150,7 +150,7 @@
                             <div class="project-item-info">
                                 <div class="project-item-info-content">
                                     <h3 class="project-item-title">
-                                        <a href="projects-single.html">Ancraft Avenue House</a>
+                                        <a href="{{route('projects.single')}}">Ancraft Avenue House</a>
                                     </h3>
                                     <p class="project-cat">Residential</p>
                                 </div>

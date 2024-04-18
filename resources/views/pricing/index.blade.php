@@ -4,9 +4,7 @@
 
 @section('title', 'Pricing')
 
-@section('styles')
-    <link rel="stylesheet" href={{ asset('css/contact-us.css') }}>
-@endsection
+
 
 @section('content')
 
@@ -103,6 +101,3 @@
 
 @endsection
 
-@section('scripts')
-    <script src={{ asset('js/custom/contact-us-form.js') }}></script>
-@endsection
