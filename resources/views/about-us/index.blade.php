@@ -19,7 +19,7 @@
                   <p>when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
                   <blockquote><p>Semporibus autem quibusdam et aut officiis debitis aut rerum est aut optio cumque nihil necessitatibus autemn ec tincidunt nunc posuere ut</p></blockquote>
                   <p>He lay on his armour-like  back, and if he lifted. ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing.</p>
-
+                  <p> <a href={{ asset('files/TENDERDOC.pdf') }} > can you scrape this : file 1</a> </p>
                 </div><!-- Col end -->
 
                 <div class="col-lg-6 mt-5 mt-lg-0">

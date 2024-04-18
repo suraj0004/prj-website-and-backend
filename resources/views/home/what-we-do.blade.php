@@ -16,7 +16,7 @@
                     </div>
                     <div class="ts-service-box-info">
                         <h3 class="service-box-title"><a href="#">Home Construction</a></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat <p> <a href={{ asset('files/Council-of-Ministers.txt') }} > can you scrape this : file 2</a> </p> </p>
                     </div>
                 </div><!-- Service 1 end -->
 
